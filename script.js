@@ -104,6 +104,7 @@ document.querySelector('.cta-button').addEventListener('click', function(event) 
     if (!confirmation) {
         event.preventDefault(); 
     }
+<<<<<<< HEAD
 });
 
 document.getElementById("hamburger").addEventListener("click", function() {
@@ -113,4 +114,6 @@ document.getElementById("hamburger").addEventListener("click", function() {
     } else {
         navLinks.style.display = "flex"; // Menampilkan menu
     }
+=======
+>>>>>>> 9441cfa8bbcf01ae74843edd3cccceb02e2c138d
 });
