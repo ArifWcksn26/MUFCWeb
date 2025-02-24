@@ -51,11 +51,7 @@ nav {
     padding: 0;
     margin: 0; 
     display: flex;
-<<<<<<< HEAD
 }   
-=======
-}
->>>>>>> 9441cfa8bbcf01ae74843edd3cccceb02e2c138d
 
 #nav-menu li {
     margin-left: 0.8em;
@@ -72,10 +68,7 @@ nav a {
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-<<<<<<< HEAD
     position: relative; 
-=======
->>>>>>> 9441cfa8bbcf01ae74843edd3cccceb02e2c138d
 }
 
 nav a::after {
@@ -83,25 +76,16 @@ nav a::after {
     display: block;
     height: 2px;
     width: 100%;
-<<<<<<< HEAD
     background: #000; 
-=======
-    background: #000000;
->>>>>>> 9441cfa8bbcf01ae74843edd3cccceb02e2c138d
     position: absolute;
     left: 0;
     bottom: -5px;
     transform: scaleX(0);
-<<<<<<< HEAD
     transition: transform 0.3s ease; /* Transisi untuk efek */
-=======
-    transition: transform 0.3s ease;
->>>>>>> 9441cfa8bbcf01ae74843edd3cccceb02e2c138d
 }
 
 nav li:hover a::after,
 nav li a:focus::after {
-<<<<<<< HEAD
     transform: scaleX(1); 
 }
 
@@ -110,16 +94,6 @@ nav li a:focus {
     color: #000; /* Warna teks saat hover atau fokus */
     transform: translateY(-2px); /* Efek mengangkat pada hover */
 }
-=======
-    transform: scaleX(1);
-}
-
-nav li:hover a {
-    color: #000000;
-    transform: translateY(-2px);
-}
-
->>>>>>> 9441cfa8bbcf01ae74843edd3cccceb02e2c138d
 #searchContainer {
     position: relative;
     display: flex;
@@ -169,7 +143,6 @@ nav li:hover a {
 #searchResults a:hover {
     background-color: #f1f1f1; 
 }
-<<<<<<< HEAD
 
 .hamburger {
     display: none; 
@@ -178,19 +151,12 @@ nav li:hover a {
     color: white;
 }
 
-=======
-/* Gaya untuk konten utama */
->>>>>>> 9441cfa8bbcf01ae74843edd3cccceb02e2c138d
 main {
     padding: 20px;
     display: flex;
     gap: 1.5rem;
 }
 
-<<<<<<< HEAD
-=======
-/* Gaya untuk konten artikel */
->>>>>>> 9441cfa8bbcf01ae74843edd3cccceb02e2c138d
 #content {
     flex: 4;
  
@@ -225,11 +191,7 @@ main {
     align-items: center; 
     margin-bottom: 20px; 
 }
-<<<<<<< HEAD
 .logo, .alex-image{
-=======
-.logo {
->>>>>>> 9441cfa8bbcf01ae74843edd3cccceb02e2c138d
     width: 200px; 
     height: auto;
     margin-right: 10px; 
@@ -238,15 +200,6 @@ main {
     margin: 0; 
 }
 
-<<<<<<< HEAD
-=======
-.alex-image {
-    width: 200px; 
-    height: auto; 
-    margin-right: 10px; 
-}
-
->>>>>>> 9441cfa8bbcf01ae74843edd3cccceb02e2c138d
 .featured-image {
     width: 100%;
     max-height: 300px;
@@ -398,7 +351,6 @@ th {
     background: #f4f4f4;
 }
 
-<<<<<<< HEAD
 .legendary-players {
     width: 100%;
     border-collapse: collapse;
@@ -424,8 +376,6 @@ th {
     background-color: #e0e0e0;
 }
 
-=======
->>>>>>> 9441cfa8bbcf01ae74843edd3cccceb02e2c138d
 /* Gaya untuk footer */
 footer {
     text-align: center;
@@ -435,12 +385,6 @@ footer {
     font-weight: bold;
 }
 
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 9441cfa8bbcf01ae74843edd3cccceb02e2c138d
 @media (max-width: 768px) {
     header {
         text-align: center;
@@ -454,7 +398,6 @@ footer {
         font-size: 2.5em;
     }
 
-<<<<<<< HEAD
     #nav-menu ul {
         display: none;
         flex-direction: column;
@@ -476,20 +419,6 @@ footer {
 
     nav li {
         margin: 10px 0; 
-=======
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul {
-        flex-direction: column;
-        padding: 0;
-    }
-
-    nav li {
-        margin: 10px 0;
->>>>>>> 9441cfa8bbcf01ae74843edd3cccceb02e2c138d
     }
 
     #searchInput {
@@ -504,19 +433,11 @@ footer {
     }
 
     main {
-<<<<<<< HEAD
         flex-direction: column; 
     }
 
     #content {
         flex: none; 
-=======
-        flex-direction: column;
-    }
-
-    #content {
-        flex: none;
->>>>>>> 9441cfa8bbcf01ae74843edd3cccceb02e2c138d
     }
 
     aside {
@@ -525,7 +446,6 @@ footer {
     }
 
     .player-photos {
-<<<<<<< HEAD
         grid-template-columns: 1fr; 
     }
 
@@ -536,23 +456,11 @@ footer {
     .profile-info {
         width: 90%; 
         margin: 0 auto; 
-=======
-        grid-template-columns: 1fr;
-    }
-
-    .table-club {
-        width: 100%;
-    }
-
-    .profile-info {
-        width: 90%;
->>>>>>> 9441cfa8bbcf01ae74843edd3cccceb02e2c138d
     }
 }
 
 @media (max-width: 480px) {
     h1 {
-<<<<<<< HEAD
         font-size: 1.8em; 
     }
 
@@ -609,36 +517,3 @@ footer {
     }
 }
 
-=======
-        font-size: 2em;
-    }
-
-    .tagline {
-        font-size: 1em;
-    }
-
-    #searchInput, #searchButton {
-        font-size: 14px;
-        padding: 6px;
-    }
-}
-
-@media (max-width: 600px) {
-    .profile.card {
-        padding: 15px;
-    }
-
-    .profile-header h2 {
-        font-size: 1.5em;
-    }
-
-    .profile-contact h3 {
-        font-size: 1.2em;
-    }
-
-    .cta-button {
-        width: 100%;
-        text-align: center;
-    }
-}
->>>>>>> 9441cfa8bbcf01ae74843edd3cccceb02e2c138d
