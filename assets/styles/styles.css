@@ -17,30 +17,37 @@ header {
 }
 
 .jumbotron {
-    font-size: 20px;
-    padding: 30px;
-    background: url('https://images.unsplash.com/photo-1610201417828-29dd1173d62f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center; /* Ganti dengan URL gambar Anda */
-    background-size: cover; 
-    text-align: center;
-    color: white; 
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px; 
+    text-align: left; 
+    display: flex; 
+    align-items: center; 
 }
-h1 {
-    font-size: 3em; 
-    font-weight: bold; 
-    margin: 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+.logoclub {
+    width: 50px; 
+    height: auto; 
+    margin-right: 15px;
+}
+.sponsor {
+    width: 300px; 
+    height: auto; 
+    margin-left: 15px;
 }
 
-.tagline {
-    font-style: italic; 
-    font-size: 1.2em; 
+h1 {
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 3.5em; 
+    font-weight: 900; 
+    color: white; 
+    margin: 0; 
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
 }
 
 nav {
     padding: 15px;
     position: sticky; 
     top: 0; 
-    background: rgb(218, 41, 28); 
+    background-color: red;
     z-index: 1000; 
     justify-content: space-between;
     display: flex;
@@ -191,7 +198,7 @@ main {
     align-items: center; 
     margin-bottom: 20px; 
 }
-.logo, .alex-image{
+.logo {
     width: 200px; 
     height: auto;
     margin-right: 10px; 
@@ -390,12 +397,16 @@ footer {
         text-align: center;
     }
 
-    .jumbotron {
-        padding: 20px;
+    .logoclub {
+        width: 50px;
+    }
+
+    .sponsor {
+        width: 230px; 
     }
 
     h1 {
-        font-size: 2.5em;
+        font-size: 2.2em; /* Scale down font size */
     }
 
     #nav-menu ul {
@@ -403,7 +414,7 @@ footer {
         flex-direction: column;
         position: absolute;
         text-align: left;
-        background-color: red;
+        background-color: rgb(255, 255, 255);
         width: 100%;
         top: 75px;
         left: 0;
@@ -419,6 +430,9 @@ footer {
 
     nav li {
         margin: 10px 0; 
+    }
+    nav a {
+        color: black; 
     }
 
     #searchInput {
@@ -461,11 +475,16 @@ footer {
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 1.8em; 
+        font-size: 1.25em; 
     }
-
-    .tagline {
-        font-size: 1em; 
+    .logoclub {
+        width: 40px; 
+        margin-left: auto;
+        margin-right: 10px;
+    }
+    .sponsor {
+        width: 150px; 
+        margin-left: 10px;
     }
 
     .article-container {
@@ -488,9 +507,10 @@ footer {
         align-items: flex-start; 
     }
 
-    .logo, .alex-image {
-        width: 100%; /* Membuat gambar responsif penuh */
-        max-width: 250px; 
+    .logo {
+        width: 100%;
+        max-width: 200px; 
+        margin: 0 auto;
     }
 
     .text {
@@ -498,13 +518,59 @@ footer {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 412px) {
     h1 {
-        font-size: 1.5em; 
+        font-size: 1.1em; 
+    }
+
+    .logoclub {
+        width: 30px; 
+    }
+
+    .sponsor {
+        width: 120px; 
+        margin-left: 10px;
     }
 
     .article-content {
         font-size: 0.9em; 
+    }
+}
+
+@media (max-width: 360px) {
+    h1 {
+        font-size: 0.92em; 
+    }
+
+    .logoclub {
+        width: 25px; 
+    }
+
+    .sponsor {
+        width: 110px; 
+        margin-left: 10px;
+    }
+
+    .article-content {
+        font-size: 0.85em;
+    }
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 0.65em; 
+    }
+
+    .logoclub {
+        width: 30px; 
+    }
+
+    .sponsor {
+        width: 100px; 
+    }
+
+    .article-content {
+        font-size: 0.8em; 
     }
 }
 
