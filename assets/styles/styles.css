@@ -392,22 +392,6 @@ footer {
     font-weight: bold;
 }
 
-@media (min-width: 1080px) and (max-width: 2040px) {
-    nav a {
-        color: white; 
-        font-size: 1.2em; 
-    }
-    .logoclub {
-        margin-left: 10px;
-        width: 75px;
-    }
-
-    h1 {
-        font-size: 3.2em; 
-        color: white; 
-    }  
-}
-
 @media (max-width: 768px) {
     header {
         text-align: center;
@@ -538,21 +522,33 @@ footer {
     }
 }
 
-@media (max-width: 412px) {
+@media only screen and (max-width: 432px) {
     h1 {
-        font-size: 1.1em; 
+        font-size: 1.05em; /* Ukuran font yang lebih besar untuk keterbacaan */
     }
 
     .logoclub {
-        width: 33px; 
+        width: 42px; /* Ukuran logo yang lebih proporsional untuk desktop */
     }
 
     .sponsor {
-        width: 120px; 
-        margin-left: 10px;
+        width: 140px; /* Menyesuaikan ukuran sponsor */
+        
+    }
+
+    .article-content {
+        font-size: 1em; /* Ukuran font yang nyaman dibaca */
+        line-height: 1.6; /* Meningkatkan jarak antar baris */
+        padding: 10px; /* Menambahkan padding untuk ruang */
+    }
+
+    nav {
+        display: flex; 
+        justify-content: space-between; /* Menyusun item navigasi */
+        align-items: center; /* Menengahkan item */
+        padding: 10px; /* Menambahkan padding untuk navigasi */
     }
 }
-
 @media (max-width: 360px) {
     h1 {
         font-size: 0.92em; 
