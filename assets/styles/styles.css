@@ -414,6 +414,10 @@ footer {
         text-align: center;
     }
 
+    .desktop-only {
+        display: none; 
+    }
+
     .logoclub {
         width: 42px;
     }
@@ -550,7 +554,8 @@ footer {
     }
 
     .article-content {
-        font-size: 0.9em; 
+        font-size: 0.85em; 
+        line-height: 1.4; 
     }
 }
 
