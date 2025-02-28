@@ -392,6 +392,28 @@ footer {
     font-weight: bold;
 }
 
+@media (max-width: 1020px) {
+    header {
+        text-align: center;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
+    .logoclub {
+        width: 50px;
+    }
+
+    .sponsor {
+        width: 250px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
 @media (max-width: 768px) {
     header {
         text-align: center;
@@ -522,17 +544,17 @@ footer {
     }
 }
 
-@media only screen and (max-width: 432px) {
+@media only screen and (max-width: 412px) {
     h1 {
-        font-size: 1.05em; /* Ukuran font yang lebih besar untuk keterbacaan */
+        font-size: 1em; 
     }
 
     .logoclub {
-        width: 42px; /* Ukuran logo yang lebih proporsional untuk desktop */
+        width: 32px; 
     }
 
     .sponsor {
-        width: 140px; /* Menyesuaikan ukuran sponsor */
+        width: 140px; 
         
     }
 
@@ -540,13 +562,6 @@ footer {
         font-size: 1em; /* Ukuran font yang nyaman dibaca */
         line-height: 1.6; /* Meningkatkan jarak antar baris */
         padding: 10px; /* Menambahkan padding untuk ruang */
-    }
-
-    nav {
-        display: flex; 
-        justify-content: space-between; /* Menyusun item navigasi */
-        align-items: center; /* Menengahkan item */
-        padding: 10px; /* Menambahkan padding untuk navigasi */
     }
 }
 @media (max-width: 360px) {
