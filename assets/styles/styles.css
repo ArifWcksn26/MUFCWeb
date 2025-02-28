@@ -412,6 +412,11 @@ footer {
     h1 {
         font-size: 2.5em;
     }
+    .text{
+        font-size: 1em; 
+        line-height: 1.6; 
+        padding: 10px; 
+    }
 }
 
 @media (max-width: 768px) {
@@ -546,7 +551,7 @@ footer {
 
 @media only screen and (max-width: 412px) {
     h1 {
-        font-size: 1em; 
+        font-size: 1.05em; 
     }
 
     .logoclub {
@@ -554,14 +559,14 @@ footer {
     }
 
     .sponsor {
-        width: 140px; 
+        width: 130px; 
         
     }
 
     .article-content {
-        font-size: 1em; /* Ukuran font yang nyaman dibaca */
-        line-height: 1.6; /* Meningkatkan jarak antar baris */
-        padding: 10px; /* Menambahkan padding untuk ruang */
+        font-size: 1em; 
+        line-height: 1.6; 
+        padding: 10px; 
     }
 }
 @media (max-width: 360px) {
