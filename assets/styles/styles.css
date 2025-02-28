@@ -545,8 +545,7 @@ footer {
     }
 
     .logoclub {
-        width: 50px; /* Ukuran logo yang lebih sesuai */
-        height: auto; /* Menjaga proporsi */
+        width: 28px; 
     }
 
     .sponsor {
