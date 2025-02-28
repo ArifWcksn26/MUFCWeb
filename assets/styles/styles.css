@@ -398,15 +398,14 @@ footer {
         font-size: 1.2em; 
     }
     .logoclub {
-        margin-left: 15px;
+        margin-left: 10px;
+        width: 75px;
     }
 
     h1 {
         font-size: 3.2em; 
         color: white; 
-    }
-
-    
+    }  
 }
 
 @media (max-width: 768px) {
@@ -545,18 +544,12 @@ footer {
     }
 
     .logoclub {
-        width: 28px; 
+        width: 33px; 
     }
 
     .sponsor {
         width: 120px; 
         margin-left: 10px;
-    }
-
-    .article-content {
-        font-size: 0.9em; /* Sedikit lebih besar untuk keterbacaan */
-        line-height: 1.5; /* Meningkatkan jarak antar baris */
-        padding: 5px; /* Menambahkan padding untuk ruang */
     }
 }
 
