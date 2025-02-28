@@ -392,13 +392,30 @@ footer {
     font-weight: bold;
 }
 
+@media (min-width: 1080px) and (max-width: 2040px) {
+    nav a {
+        color: white; 
+        font-size: 1.2em; 
+    }
+    .logoclub {
+        margin-left: 15px;
+    }
+
+    h1 {
+        font-size: 3.2em; 
+        color: white; 
+    }
+
+    
+}
+
 @media (max-width: 768px) {
     header {
         text-align: center;
     }
 
     .logoclub {
-        width: 50px;
+        width: 42px;
     }
 
     .sponsor {
@@ -406,7 +423,7 @@ footer {
     }
 
     h1 {
-        font-size: 2.2em; /* Scale down font size */
+        font-size: 2.2em;
     }
 
     #nav-menu ul {
